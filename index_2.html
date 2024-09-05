@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+
+<body>
+    <form action="/registro" method="post">
+        <fieldset>
+            <legend>Datos del Usuario</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" required>
+
+            <label for="Correo electrónico">Correo electronico</label>
+            <input type="text" id="correo electronico" name="correo electronico" required>
+
+            <label for="Nacimiento">Nacimiento</label>
+            <input type="date" name="Nacimiento" id="Nacimiento">
+
+            <label for="DNI">DNI</label>
+            <input type="text" name="DNI" id="DNI" required>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Num. de telefono y Redes sociales</legend>
+            <label for="Telefono">Telefono</label>
+            <input type="tel" name="Telefono" id="Telefono">
+
+            <label for="Usuario de X">Usuario de X</label>
+            <input type="text" name="Usuario de X" id="Usuario de X">
+
+            <label for="Usuario de instagram">Usuario de instagram</label>
+            <input type="text" name="Usuario de instagram" id="Usuario de instagram">
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>ubicacion</legend>
+            <label for="Pais">Pais</label>
+            <input type="text" name="Pais" id="Pais">
+
+            <label for="Provincia">Provincia</label>
+            <input type="text" name="Provincia" id="Provincia">
+
+            <label for="Ciudad">Ciudad</label>
+            <input type="text" name="Ciudad" id="Ciudad">
+        </fieldset>
+
+        <fieldset>
+            <legend>Que juegos te gustan?</legend>
+            <label for="Tematica del juego">Tematica del juego</label>
+            <input type="text" name="Tematica del juego" id="Tematica del juego">
+
+            <label for="tipo de juego">tipo de juego</label>
+            <input type="text" name="tipo" id="tipo">
+
+            <label for="En donde lo juegas">En donde lo juegas</label>
+            <select name="Dispositivo" id="Dispositivo">
+                <option value="PC_Gamer">PC gamer</option>
+                <option value="Telefono">Telefono</option>
+                <option value="Tablet">Tablet</option>
+                <option value="playstation">Playstation</option>
+                <option value="Xbox">Xbox</option>
+            </select>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar Datos">
+    </form>
+</body>
+
+</html>
